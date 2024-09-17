@@ -1,0 +1,15 @@
+<h2>Your Blog Posts</h2>
+{{#each posts as |post|}}
+<div class="blog-post">
+  <p><strong><a href="/post/{{post.id}}">{{post.title}}</a></strong></p>
+  <button data-id="{{post.id}}" class="delete-btn">Delete</button>
+  <a href="/editpost/{{post.id}}">
+    <button>Edit</button>
+  </a>
+</div>
+{{/each}}
+<a href="/newpost">
+  <button>Create New Post</button>
+</a>
+
+<script src="/js/delete.js"></script>

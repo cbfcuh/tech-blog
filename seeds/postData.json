@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "title": "First post",
+      "body": "This is the content of the first post",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Second post",
+      "body": "This is the content of the second post",
+      "user_id": 2
+    }
+  ]
+  

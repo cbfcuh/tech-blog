@@ -1,0 +1,82 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0; 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #f5f5f5; 
+}
+
+p, h2, label, button, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e0e0e0; 
+}
+
+.blog-post {
+    border: 3px solid #333; 
+    padding: 10px;
+    margin: 10px;
+    background-color: #1e1e1e; 
+}
+
+.form {
+    border: 3px solid #333;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1e1e1e; 
+}
+
+button {
+    margin: 5px;
+    background-color: #388e3c; 
+    color: white; 
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e7d32; 
+}
+
+#single-post {
+    border: 3px solid #333;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1e1e1e;
+}
+
+#post-form {
+    border: 3px solid #333;
+    padding: 15px;
+    margin: 10px;
+    background-color: #1e1e1e;
+}
+
+#add-comment {
+    border: 3px solid #333;
+    padding: 15px;
+    margin: 10px;
+    background-color: #1e1e1e;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #81c784; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #66bb6a; 
+}
+
+.comment-render {
+    border: 3px solid #333;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1e1e1e;
+}
